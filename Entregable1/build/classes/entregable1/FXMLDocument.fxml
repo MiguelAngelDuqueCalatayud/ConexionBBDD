@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entregable1.FXMLDocumentController">
+    <children>
+        <Button fx:id="obtenerInformacion" layoutX="23.0" layoutY="160.0" onAction="#obtenerInformacion" text="Obtener informacion" />
+      <Label layoutX="26.0" layoutY="52.0" prefHeight="26.0" prefWidth="118.0" text="Ruta del fichero">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textRuta" layoutX="168.0" layoutY="47.0" prefHeight="35.0" prefWidth="439.0" />
+      <Button fx:id="crearCarpeta" layoutX="42.0" layoutY="217.0" onAction="#crearCarpeta" text="Crear carpeta" />
+      <Button fx:id="crearFichero" layoutX="39.0" layoutY="269.0" onAction="#crearFichero" text="Crear fichero" />
+      <Button fx:id="eliminar" layoutX="51.0" layoutY="324.0" onAction="#botonEliminar" text="Eliminar" />
+      <Button fx:id="renombrar" layoutX="42.0" layoutY="377.0" onAction="#botonRenombrar" text="Renombrar" />
+      <TextArea fx:id="textInfo" editable="false" layoutX="200.0" layoutY="160.0" prefHeight="243.0" prefWidth="410.0" />
+      <Label layoutX="9.0" layoutY="105.0" text="Fichero renombrado">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textRutaRenom" layoutX="168.0" layoutY="98.0" prefHeight="35.0" prefWidth="439.0" />
+    </children>
+</AnchorPane>
