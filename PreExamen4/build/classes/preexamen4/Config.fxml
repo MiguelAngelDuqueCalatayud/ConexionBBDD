@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" fx:id="rootPanel" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="preexamen4.ConfigController">
+   <children>
+      <Text layoutX="31.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre Archivo:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="25.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Servidor:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="31.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puerto:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="453.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña:" />
+      <Text layoutX="463.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario:" />
+      <Text layoutX="430.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre BDD:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ubicación:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtArchivo" layoutX="165.0" layoutY="104.0" prefHeight="25.0" prefWidth="215.0" text="config.txt" />
+      <TextField fx:id="txtServidor" layoutX="165.0" layoutY="166.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="txtPuerto" layoutX="165.0" layoutY="231.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="txtContraseña" layoutX="543.0" layoutY="232.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="txtUsuario" layoutX="543.0" layoutY="166.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="txtBDD" layoutX="543.0" layoutY="104.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="txtUbicacion" layoutX="165.0" layoutY="40.0" prefHeight="25.0" prefWidth="596.0" />
+      <TextArea fx:id="textoMostrar" editable="false" layoutX="41.0" layoutY="280.0" prefHeight="200.0" prefWidth="718.0" />
+      <Button fx:id="botonCrear" layoutX="41.0" layoutY="500.0" mnemonicParsing="false" onAction="#crearArchivo" text="Crear/Guardar" />
+      <Button fx:id="botonMostrar" layoutX="151.0" layoutY="500.0" mnemonicParsing="false" onAction="#mostrarArchivo" prefHeight="25.0" prefWidth="92.0" text="Mostrar" />
+      <Button fx:id="botonVolver" layoutX="666.0" layoutY="500.0" mnemonicParsing="false" onAction="#volver" prefHeight="25.0" prefWidth="92.0" text="Volver" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPanel" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="preexamen4.FXMLDocumentController">
+   <children>
+      <TextField fx:id="txtID" layoutX="170.0" layoutY="74.0" prefHeight="25.0" prefWidth="600.0" />
+      <Text layoutX="58.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="59.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciudad:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codigo:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="57.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Distrito:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="59.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Poblacion:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtCiudad" layoutX="170.0" layoutY="111.0" prefHeight="25.0" prefWidth="600.0" />
+      <TextField fx:id="txtCodigo" layoutX="170.0" layoutY="150.0" prefHeight="25.0" prefWidth="600.0" />
+      <TextField fx:id="txtDistrito" layoutX="170.0" layoutY="184.0" prefHeight="25.0" prefWidth="600.0" />
+      <TextField fx:id="txtPoblacion" layoutX="170.0" layoutY="218.0" prefHeight="25.0" prefWidth="600.0" />
+      <Button fx:id="botonAnterior" layoutX="170.0" layoutY="261.0" mnemonicParsing="false" onAction="#irAtras" text="&lt;" />
+      <Button fx:id="botonPosterior" layoutX="211.0" layoutY="261.0" mnemonicParsing="false" onAction="#irAlante" text="&gt;" />
+      <Button fx:id="botonSentencias" layoutX="60.0" layoutY="395.0" mnemonicParsing="false" onAction="#sentenciasLib" text="Sentencias libres" />
+      <Button fx:id="botonConfig" layoutX="60.0" layoutY="360.0" mnemonicParsing="false" onAction="#irConfig" prefHeight="25.0" prefWidth="104.0" text="Configuración" />
+   </children>
+</AnchorPane>
