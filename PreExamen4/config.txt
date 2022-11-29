@@ -1,5 +1,0 @@
-Nombre:2DAM
-Contraseña:2DAM2022
-Puerto:3306
-BDD:world2
-Host:localhost

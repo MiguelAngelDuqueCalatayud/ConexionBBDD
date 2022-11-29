@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="rootPanel" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="preexamen4.SentenciasController">
+   <children>
+      <TextField fx:id="txtQuery" layoutX="28.0" layoutY="34.0" prefHeight="25.0" prefWidth="745.0" promptText="Inserta aqui la sentencia SQL" />
+      <TextArea fx:id="txtMostrar" layoutX="28.0" layoutY="129.0" prefHeight="352.0" prefWidth="745.0" />
+      <Button fx:id="botonEjecutar" layoutX="28.0" layoutY="496.0" mnemonicParsing="false" onAction="#hacerSentencia" prefHeight="25.0" prefWidth="97.0" text="Ejecutar" />
+      <Button fx:id="botonVolver" layoutX="28.0" layoutY="530.0" mnemonicParsing="false" onAction="#volver" prefHeight="25.0" prefWidth="97.0" text="Volver" />
+   </children>
+</AnchorPane>
