@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AD-Seccion3.jnlp">
+  <information>
+    <title>AD-Seccion3</title>
+    <vendor>OscarBK</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AD-Seccion3.jar" size="6726" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="ad.seccion3.ADSeccion3"  name="AD-Seccion3" />
+  <update check="always"/>
+</jnlp>

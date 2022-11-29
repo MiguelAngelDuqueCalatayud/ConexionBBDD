@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pilotos>
+    <piloto id="1">
+        <nombre>Fernando</nombre>
+        <apellido>Alonso</apellido>
+        <abreviatura>ALO</abreviatura>
+        <escuderia>Alpine</escuderia>
+    </piloto>
+
+    <piloto id="2">
+        <nombre>Max</nombre>
+        <apellido>Verstappen</apellido>
+        <abreviatura>VER</abreviatura>
+        <escuderia>Red Bull</escuderia>
+    </piloto>
+
+    <piloto id="3">
+        <nombre>Carlos</nombre>
+        <apellido>Sainz</apellido>
+        <abreviatura>SAI</abreviatura>
+        <escuderia>Ferrari</escuderia>
+    </piloto>
+
+<piloto id="4">
+        <nombre>Esteban</nombre>
+        <apellido>Ocon</apellido>
+        <abreviatura>OCO</abreviatura>
+        <escuderia>Alpine</escuderia>
+    </piloto>
+
+<piloto id="5">
+        <nombre>Jordi</nombre>
+        <apellido>Navarro</apellido>
+        <abreviatura>NAV</abreviatura>
+        <escuderia>DAM</escuderia>
+    </piloto>
+<piloto id="6">
+        <nombre>Miguel Angel</nombre>
+        <apellido>Duque</apellido>
+        <abreviatura>DUQ</abreviatura>
+        <escuderia>DAM</escuderia>
+    </piloto>
+<piloto id="7">
+        <nombre>adsad</nombre>
+        <apellido>asdasd</apellido>
+        <abreviatura>asda</abreviatura>
+        <escuderia>asdasda</escuderia>
+    </piloto>
+<piloto id="7">
+        <nombre>adsad</nombre>
+        <apellido>asdasd</apellido>
+        <abreviatura>asda</abreviatura>
+        <escuderia>asdasda</escuderia>
+    </piloto>
+</pilotos>

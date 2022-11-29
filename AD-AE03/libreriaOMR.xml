@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libros>
+    <libro id="2">
+        <titulo>Santos en Brasil</titulo>
+        <autor>Alex Blasco</autor>
+        <anyo>1045</anyo>
+        <editorial>Nallo</editorial>
+        <nPag>78</nPag>
+    </libro>
+    <libro id="3">
+        <titulo>Hola</titulo>
+        <autor>Adios</autor>
+        <anyo>1231</anyo>
+        <editorial>Se actualizó</editorial>
+        <nPag>346</nPag>
+    </libro>
+</libros>

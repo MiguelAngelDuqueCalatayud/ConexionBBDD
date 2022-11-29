@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ad.seccion3.FXMLDocumentController">
+   <children>
+      <Label layoutX="213.0" layoutY="14.0" text="SECCION 3 - Óscar Martínez">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textId" layoutX="213.0" layoutY="90.0" prefHeight="25.0" prefWidth="436.0" />
+      <TextField fx:id="textNombre" layoutX="213.0" layoutY="130.0" prefHeight="25.0" prefWidth="436.0" />
+      <TextField fx:id="textAbr" layoutX="213.0" layoutY="210.0" prefHeight="25.0" prefWidth="436.0" />
+      <TextField fx:id="textApellido" layoutX="213.0" layoutY="170.0" prefHeight="25.0" prefWidth="436.0" />
+      <TextField fx:id="textEscuderia" layoutX="213.0" layoutY="250.0" prefHeight="25.0" prefWidth="436.0" />
+      <Label layoutX="82.0" layoutY="90.0" text="ID:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="130.0" text="Nombre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="170.0" text="Apellido:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="210.0" text="Abreviatura:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="250.0" text="Escuderia:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="botonLimpiar" layoutX="592.0" layoutY="290.0" mnemonicParsing="false" onAction="#limpiarTextos" text="Limpiar" />
+      <Button fx:id="botonAnyadir" layoutX="527.0" layoutY="290.0" mnemonicParsing="false" onAction="#anyadirPiloto" text="Añadir" />
+      <Button fx:id="botonAnt" layoutX="213.0" layoutY="290.0" mnemonicParsing="false" onAction="#irAnterior" text="&lt;" />
+      <Button fx:id="botonSig" layoutX="255.0" layoutY="290.0" mnemonicParsing="false" onAction="#irPosterior" text="&gt;" />
+      <TextArea fx:id="textoMostrar" editable="false" layoutX="213.0" layoutY="330.0" prefHeight="239.0" prefWidth="436.0" />
+      <Button fx:id="botonMostrar" layoutX="213.0" layoutY="580.0" mnemonicParsing="false" onAction="#mostrarXML" text="Mostrar XML" />
+      <TextArea fx:id="textoNodos" editable="false" layoutX="213.0" layoutY="617.0" prefHeight="45.0" prefWidth="436.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPanel" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ad.ae03.FXMLCrearLibroController">
+   <children>
+      <Label layoutX="247.0" layoutY="37.0" text="3: Crear Libro">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tituloLib" layoutX="127.0" layoutY="102.0" prefHeight="25.0" prefWidth="434.0" />
+      <TextField fx:id="autorLib" layoutX="127.0" layoutY="146.0" prefHeight="25.0" prefWidth="434.0" />
+      <TextField fx:id="anyoLib" layoutX="127.0" layoutY="186.0" prefHeight="25.0" prefWidth="434.0" />
+      <TextField fx:id="editorialLib" layoutX="127.0" layoutY="223.0" prefHeight="25.0" prefWidth="434.0" />
+      <TextField fx:id="paginasLib" layoutX="127.0" layoutY="260.0" prefHeight="25.0" prefWidth="434.0" />
+      <Label layoutX="46.0" layoutY="102.0" text="Titulo:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="146.0" text="Autor:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="186.0" text="Año:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="223.0" text="Editorial:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="260.0" text="NºPags:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="botonAnadir" layoutX="510.0" layoutY="322.0" mnemonicParsing="false" onAction="#anyadirLibro" text="Añadir" />
+      <Button fx:id="botonVolver" layoutX="127.0" layoutY="322.0" mnemonicParsing="false" onAction="#volverMenu" text="Volver" />
+      <Label layoutX="19.0" layoutY="569.0" text="Osmaro01" />
+   </children>
+</AnchorPane>
